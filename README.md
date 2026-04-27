@@ -35,8 +35,8 @@ I implemented three iterations of **Logistic Regression** to compare handling st
 *   **Best Strategy:** `LR + Class Weights` proved most efficient, matching SMOTE's recall while maintaining a slightly better Precision and F1 Score without the need for synthetic data generation. A reduced count of false negatives (incorrect fraudulent transaction flagging) was achieved using the class weights method.
 
 <div align="center">
-  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_baseline.png" width="300" alt="Baseline Confusion Matrix"/>
-  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_smote.png" width="300" alt="SMOTE Confusion Matrix"/>
+  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_baseline.png" width="285" alt="Baseline Confusion Matrix"/>
+  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_smote.png" width="285" alt="SMOTE Confusion Matrix"/>
   <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_cw.png" width="300" alt="Class Weights Confusion Matrix"/>
 </div>
 
