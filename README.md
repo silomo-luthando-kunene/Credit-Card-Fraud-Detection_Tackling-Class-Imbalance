@@ -34,11 +34,22 @@ I implemented three iterations of **Logistic Regression** to compare handling st
 *   **Recall vs. Precision:** By using SMOTE and Class Weights, I boosted **Recall to 91.84%**, catching significantly more fraudulent transactions at the cost of higher false positives.
 *   **Best Strategy:** `LR + Class Weights` proved most efficient, matching SMOTE's recall while maintaining a slightly better Precision and F1 Score without the need for synthetic data generation. A reduced count of false negatives (incorrect fraudulent transaction flagging) was achieved using the class weights method.
 
-<div align="center">
-  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_baseline.png" width="260" alt="Baseline Confusion Matrix"/>
-  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_smote.png" width="260" alt="SMOTE Confusion Matrix"/>
-  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_cw.png" width="260" alt="Class Weights Confusion Matrix"/>
-</div>
+<table style="width: 100%; border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="border: none; text-align: center; padding: 5px; width: 33.33%;">
+      <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_baseline.png" style="width: 100%;" alt="Baseline Confusion Matrix"/><br>
+      <b>Baseline LR</b>
+    </td>
+    <td style="border: none; text-align: center; padding: 5px; width: 33.33%;">
+      <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_smote.png" style="width: 100%;" alt="SMOTE Confusion Matrix"/><br>
+      <b>LR + SMOTE</b>
+    </td>
+    <td style="border: none; text-align: center; padding: 5px; width: 33.33%;">
+      <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_cw.png" style="width: 100%;" alt="Class Weights Confusion Matrix"/><br>
+      <b>LR + Class Weights</b>
+    </td>
+  </tr>
+</table>
 
 ## 🛠️ Tech Stack
 
