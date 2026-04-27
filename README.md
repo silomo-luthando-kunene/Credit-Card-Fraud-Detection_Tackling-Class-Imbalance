@@ -34,6 +34,12 @@ I implemented three iterations of **Logistic Regression** to compare handling st
 *   **Recall vs. Precision:** By using SMOTE and Class Weights, I boosted **Recall to 91.84%**, catching significantly more fraudulent transactions at the cost of higher false positives.
 *   **Best Strategy:** `LR + Class Weights` proved most efficient, matching SMOTE's recall while maintaining a slightly better Precision and F1 Score without the need for synthetic data generation. A reduced count of false negatives (incorrect fraudulent transaction flagging) was achieved using the class weights method.
 
+<div align="center">
+  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_baseline.png" width="300" alt="Baseline Confusion Matrix"/>
+  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_smote.png" width="300" alt="SMOTE Confusion Matrix"/>
+  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_cw.png" width="315" alt="Class Weights Confusion Matrix"/>
+</div>
+
 ## 🛠️ Tech Stack
 
 *   **Language:** Python
@@ -42,4 +48,4 @@ I implemented three iterations of **Logistic Regression** to compare handling st
 ## 🏁 Conclusion
 In fraud detection, catching the "needle in the haystack" (Recall) is more important than overall model accuracy. This project proves that through proper resampling and model training and testing, we can build models that protect customers effectively and optimally flag fraudulent transactions efficiently.
 </br>
-**This project was completed as part of a Classification Life Cycle study I am doing as part of my independent upskilling in the field of Machine Learning.**
+**This project was completed as part of my upskilling in Machine Learning with my current focus on Classification problems**
