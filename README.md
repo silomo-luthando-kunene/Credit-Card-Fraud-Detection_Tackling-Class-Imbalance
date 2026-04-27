@@ -37,7 +37,7 @@ I implemented three iterations of **Logistic Regression** to compare handling st
 <div align="center">
   <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_baseline.png" width="300" alt="Baseline Confusion Matrix"/>
   <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_smote.png" width="300" alt="SMOTE Confusion Matrix"/>
-  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_cw.png" width="315" alt="Class Weights Confusion Matrix"/>
+  <img src="https://github.com/silomo-luthando-kunene/Credit-Card-Fraud-Detection_Tackling-Class-Imbalance/blob/main/Project_Files/cm_cw.png" width="300" alt="Class Weights Confusion Matrix"/>
 </div>
 
 ## 🛠️ Tech Stack
